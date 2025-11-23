@@ -2009,15 +2009,41 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #ffffff;
-			color: #fff; 
-			text-shadow: -1px -1px 0px #181818;
-		}
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            text-shadow: none !important;
+      }
 
-			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
-			}
+  .wrapper.style4 h1,
+  .wrapper.style4 h2,
+  .wrapper.style4 h3,
+  .wrapper.style4 h4,
+  .wrapper.style4 h5,
+  .wrapper.style4 h6 {
+    color: #000000 !important;
+}
 
+.wrapper.style4 form input[type=text],
+.wrapper.style4 form input[type=password],
+.wrapper.style4 form input[type=email],
+.wrapper.style4 form select,
+.wrapper.style4 form textarea {
+    border: 1px solid #ccc !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+
+.wrapper.style4 form input[type=text]:focus,
+.wrapper.style4 form input[type=password]:focus,
+.wrapper.style4 form input[type=email]:focus,
+.wrapper.style4 form select:focus,
+.wrapper.style4 form textarea:focus {
+    background: #f7f7f7 !important;
+    border-color: #43bff0 !important;
+}
+
+ 
 			.wrapper.style4 form input[type=text],
 			.wrapper.style4 form input[type=password],
 			.wrapper.style4 form select,
